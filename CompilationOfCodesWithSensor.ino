@@ -368,7 +368,7 @@ void setup() {
       stepper1.runSpeed(); // stop ceiling movement if in contact with cButton2
       Blynk.virtualWrite(V4, "Ceiling Closed");
     }
-a
+
     if (!raining && cButton1Val == 0){ // when it is not raining
       stepper1.setSpeed(speed1);
       stepper1.runSpeed();   // move ceiling backward
